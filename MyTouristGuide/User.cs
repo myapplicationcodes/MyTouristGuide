@@ -10,5 +10,7 @@ namespace MyTouristGuide
         public int UserId { set; get; }
         public string UserName { set; get; }
         public string Password { set; get; }
+        public string EMail { set; get; }
+        public DateTime CreatedOn { set; get; }
     }
 }
