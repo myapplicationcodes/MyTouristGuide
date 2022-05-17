@@ -12,5 +12,7 @@ namespace MyTouristGuide
         public string Password { set; get; }
         public string EMail { set; get; }
         public DateTime CreatedOn { set; get; }
+        public string Description {set;get; }
+        public bool Status {set;get;}
     }
 }
